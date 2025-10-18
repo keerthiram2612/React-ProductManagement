@@ -114,6 +114,13 @@ export default function Dashboard() {
           >
             📦 Order History
           </Link>
+          <Link to="/products" style={{
+              background: "#f63baeff",
+              color: "white",
+              padding: "10px 25px",
+              borderRadius: "8px",
+              textDecoration: "none",
+            }}>Products</Link>
         </div>
       </div>
     </div>

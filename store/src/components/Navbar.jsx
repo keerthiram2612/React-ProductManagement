@@ -24,7 +24,7 @@ export default function Navbar() {
   return (
     <nav style={{ padding: 12, display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid #eee" }}>
       <div>
-        <Link to="/">MyApp</Link>
+        <Link to="/">Shopiefy Store</Link> 
       </div>
 
       <div>
