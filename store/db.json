@@ -6,7 +6,7 @@
       "category": "Electronics",
       "price": 799,
       "stock": 10,
-      "image": "https://via.placeholder.com/150"
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZqQJRLgY5_ld2Uzk6zH7yQ-9wJiQpMTSQbA&s"
     },
     {
       "id": 2,
@@ -14,7 +14,7 @@
       "category": "Electronics",
       "price": 499,
       "stock": 0,
-      "image": "https://via.placeholder.com/150"
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/chorus/uploads/chorus_asset/file/25626687/DSC08433.jpg?quality=90&strip=all&crop=16.675%2C0%2C66.65%2C100&w=2400"
     },
     {
       "id": 3,
@@ -22,7 +22,7 @@
       "category": "Fashion",
       "price": 99,
       "stock": 5,
-      "image": "https://via.placeholder.com/150"
+      "image": "https://media.istockphoto.com/id/1350560575/photo/pair-of-blue-running-sneakers-on-white-background-isolated.jpg?s=612x612&w=0&k=20&c=A3w_a9q3Gz-tWkQL6K00xu7UHdN5LLZefzPDp-wNkSU="
     }
   ]
 }
