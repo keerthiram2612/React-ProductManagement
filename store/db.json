@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Laptop",
+      "category": "Electronics",
+      "price": 799,
+      "stock": 10,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 2,
+      "title": "Smartphone",
+      "category": "Electronics",
+      "price": 499,
+      "stock": 0,
+      "image": "https://via.placeholder.com/150"
+    },
+    {
+      "id": 3,
+      "title": "Shoes",
+      "category": "Fashion",
+      "price": 99,
+      "stock": 5,
+      "image": "https://via.placeholder.com/150"
+    }
+  ]
+}
