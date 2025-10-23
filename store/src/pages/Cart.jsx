@@ -22,6 +22,7 @@ export default function Cart() {
     (sum, item) => sum + item.price * item.quantity,
     0
   );
+  
 
   const handleConfirmOrder = () => {
     if (!selectedAddress) {
@@ -41,6 +42,7 @@ export default function Cart() {
 
     addOrder(order);
     setOrderConfirmed(true);
+    
   };
 
   return (

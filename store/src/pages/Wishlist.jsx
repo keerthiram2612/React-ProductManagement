@@ -6,6 +6,34 @@ export default function Wishlist() {
     { id: 2, name: "Smart Watch", price: "$149" },
   ];
 
+  // Add to cart handler
+  const handleAddToCart = (product) => {
+    // Convert price to number (remove $)
+    const numericPrice = parseFloat(product.price.replace("$", ""));
+
+    // Get current cart items from localStorage
+    const existingCart = JSON.parse(localStorage.getItem("cartItems")) || [];
+
+    // Check if product already exists in cart
+    const isAlreadyInCart = existingCart.some((item) => item.id === product.id);
+
+    if (isAlreadyInCart) {
+      alert("Item already added to cart!");
+      return;
+    }
+
+    // Add new product with quantity = 1
+    const updatedCart = [
+      ...existingCart,
+      { ...product, price: numericPrice, quantity: 1 },
+    ];
+
+    // Save back to localStorage
+    localStorage.setItem("cartItems", JSON.stringify(updatedCart));
+
+    alert(`${product.name} added to cart!`);
+  };
+
   return (
     <div
       style={{
@@ -50,6 +78,7 @@ export default function Wishlist() {
                 border: "none",
                 cursor: "pointer",
               }}
+              onClick={() => handleAddToCart(item)}
             >
               Add to Cart
             </button>
